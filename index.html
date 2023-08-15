@@ -274,7 +274,7 @@
                     })
                     .then(response => console.log('Success!', response))
                     .catch(error => console.error('Error!', error.message))
-            })
+            });
         </script>
         <!-- akhir Google sheets -->
 
@@ -302,12 +302,6 @@
             const scroll = document.querySelectorAll('.scrollspy');
             M.ScrollSpy.init(scroll, {
                 scrollOffset: 50
-            });
-        </script>
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                var elems = document.querySelectorAll('.fixed-action-btn');
-                var instances = M.FloatingActionButton.init(elems, options);
             });
         </script>
     </body>
